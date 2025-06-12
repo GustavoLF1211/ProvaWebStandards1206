@@ -1,0 +1,20 @@
+footer{
+    display: flex;
+    color: var(--cor-texto);
+    background-color: var(--cor-fundo);
+    padding: 15px;
+    justify-content: center;
+    border-radius: 12px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s;
+    font-size: 14px;
+    text-decoration: underline;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: rgb(97, 0, 97);
+    font-size: 16px;
+}
